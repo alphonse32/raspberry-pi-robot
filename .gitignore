@@ -1,0 +1,33 @@
+# Environnements
+venv/
+.env
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Données volumineuses
+data/*.csv
+data/*.pkl
+*.h5
+*.hdf5
+
+# Modèles entraînés
+*.pt
+*.pth
+models/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Secrets
+*.env
+config_secret.py
